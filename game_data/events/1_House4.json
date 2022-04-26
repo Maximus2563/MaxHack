@@ -1,0 +1,81 @@
+[
+    {
+        "name": "House4",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House4'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Man1",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Man1",
+                    "Experience is everything, you know...|You look a little green, maybe this ought do some good..."
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_exp",
+                [
+                    "{unit}",
+                    "20"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

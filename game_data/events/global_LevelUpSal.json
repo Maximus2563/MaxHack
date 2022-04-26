@@ -1,0 +1,78 @@
+[
+    {
+        "name": "LevelUpSal",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Sal'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Smoke",
+                    "LevelUpRight",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>5"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "My enemies will never wake up again!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Night-night foes, I'm even stronger now!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Steady, we'll get there in the end.",
+                    "100,0"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "I must have nodded off there...",
+                    "100,0"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

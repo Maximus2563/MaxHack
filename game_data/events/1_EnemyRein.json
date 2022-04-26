@@ -1,0 +1,64 @@
+[
+    {
+        "name": "EnemyRein",
+        "trigger": "turn_change",
+        "level_nid": "1",
+        "condition": "game.level.regions.get('EnemyRein').contains(game.get_unit('Sal').position)",
+        "commands": [
+            [
+                "spawn_group",
+                [
+                    "EnemyRein",
+                    "",
+                    "EnemyRein"
+                ]
+            ],
+            [
+                "move_cursor",
+                [
+                    "107"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Bandit2",
+                    "Left"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Bandit2",
+                    "I've found them! Stragglers from Renais! Don't let them get away."
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "SoldierRed"
+                ]
+            ]
+        ],
+        "only_once": true,
+        "priority": 20
+    }
+]

@@ -1,0 +1,80 @@
+[
+    {
+        "name": "PlayerTurn4",
+        "trigger": "turn_change",
+        "level_nid": "0",
+        "condition": "game.turncount == 4",
+        "commands": [
+            [
+                "move_cursor",
+                [
+                    "Pierre"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "1"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "1000"
+                ]
+            ],
+            [
+                "disp_cursor",
+                [
+                    "0"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Pierre",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Pierre",
+                    "They're just kids! What the hell are you guys doing?|Well, you're asking for it, twerps! Hawhaw!"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "remove_portrait;Pierre;Right"
+                ]
+            ],
+            [
+                "add_group",
+                [
+                    "Enemy2"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "spawn_group;Enemy2;starting"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "move_group;Enemy2;"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "400"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

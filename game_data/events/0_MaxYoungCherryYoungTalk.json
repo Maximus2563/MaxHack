@@ -1,0 +1,87 @@
+[
+    {
+        "name": "MaxYoungCherryYoungTalk",
+        "trigger": "on_talk",
+        "level_nid": "0",
+        "condition": "unit.nid == 'CherryYoung' and unit2.nid == 'MaxYoung'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "CherryYoung",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "MaxYoung",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "CherryYoung",
+                    "H-hey, we're here to help.|Cherry is the name, you'd best remember it...!|Please."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "MaxYoung",
+                    "All right, thanks. Max, by the way.|You can heal right?"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "CherryYoung",
+                    "Yes... Fighting is too barbaric..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "MaxYoung",
+                    "Well that's fine, we kind of needed a healer to save our hide...|Just don't tell the others I said that, or I'll be surely lectured..."
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "CherryYoung",
+                    "So long as we're rewarded, hehe..."
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "remove_portrait;CherryYoung;Left"
+                ]
+            ],
+            [
+                "bop_portrait",
+                [
+                    "MaxYoung"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "MaxYoung",
+                    "W-wait! Nobody mentioned THAT!"
+                ]
+            ],
+            [
+                "comment",
+                [
+                    "remove_portrait;MaxYoung;Right"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

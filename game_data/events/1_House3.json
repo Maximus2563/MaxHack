@@ -1,0 +1,87 @@
+[
+    {
+        "name": "House3",
+        "trigger": "Visit",
+        "level_nid": "1",
+        "condition": "region.nid == 'House2'",
+        "commands": [
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                [
+                    "House"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "Woman1",
+                    "Left",
+                    "no_block"
+                ]
+            ],
+            [
+                "add_portrait",
+                [
+                    "{unit}",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Woman1",
+                    "Attacks? Well thank you, it'd be a shame to loss everything we worked so hard to build.|Take this as a token of my thanks, I won't take no for an answer!"
+                ]
+            ],
+            [
+                "transition",
+                [
+                    "Close"
+                ]
+            ],
+            [
+                "change_background",
+                []
+            ],
+            [
+                "transition",
+                [
+                    "Open"
+                ]
+            ],
+            [
+                "give_money",
+                [
+                    "1000",
+                    "Sal's Platoon"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "DoorSouth"
+                ]
+            ],
+            [
+                "has_traded",
+                [
+                    "{unit}"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

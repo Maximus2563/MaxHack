@@ -1,0 +1,36 @@
+[
+    {
+        "name": "DestroyHouse2",
+        "trigger": "Destructible",
+        "level_nid": "1",
+        "condition": "region.nid == 'House2'",
+        "commands": [
+            [
+                "flicker_cursor",
+                [
+                    "{position}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "DestroyedNorth"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "VillageDestroyed"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

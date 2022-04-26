@@ -1,0 +1,36 @@
+[
+    {
+        "name": "DestroyHouse3",
+        "trigger": "Destructible",
+        "level_nid": "1",
+        "condition": "region.nid == 'House3'",
+        "commands": [
+            [
+                "flicker_cursor",
+                [
+                    "{position}"
+                ]
+            ],
+            [
+                "show_layer",
+                [
+                    "DestroyedSouth"
+                ]
+            ],
+            [
+                "sound",
+                [
+                    "VillageDestroyed"
+                ]
+            ],
+            [
+                "wait",
+                [
+                    "500"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
