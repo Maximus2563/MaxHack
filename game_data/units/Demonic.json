@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "Demonic",
+        "name": "Demonic",
+        "desc": "The old and not so wise aide\nof Lord Sages. ",
+        "variant": "",
+        "level": 1,
+        "klass": "Great_Knight",
+        "tags": [],
+        "bases": {
+            "HP": 26,
+            "STR": 12,
+            "MAG": 3,
+            "SKL": 6,
+            "SPD": 10,
+            "LCK": 8,
+            "DEF": 13,
+            "CON": 12,
+            "MOV": 7,
+            "RES": 4
+        },
+        "growths": {
+            "HP": 70,
+            "STR": 40,
+            "MAG": 0,
+            "SKL": 15,
+            "SPD": 25,
+            "LCK": 30,
+            "DEF": 35,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 20
+        },
+        "starting_items": [
+            [
+                "Steel Lance",
+                false
+            ],
+            [
+                "Devil Axe",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Aggravate"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                31
+            ],
+            "Lance": [
+                true,
+                121
+            ],
+            "Axe": [
+                false,
+                181
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Demonic",
+        "affinity": "Fire",
+        "fields": []
+    }
+]

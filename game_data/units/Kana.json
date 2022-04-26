@@ -1,0 +1,93 @@
+[
+    {
+        "nid": "Kana",
+        "name": "Kana",
+        "desc": "",
+        "variant": null,
+        "level": 2,
+        "klass": "Griffon Knight",
+        "tags": [],
+        "bases": {
+            "HP": 28,
+            "STR": 13,
+            "MAG": 4,
+            "SKL": 13,
+            "SPD": 16,
+            "LCK": 6,
+            "DEF": 11,
+            "RES": 7,
+            "CON": 11,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 40,
+            "MAG": 5,
+            "SKL": 35,
+            "SPD": 45,
+            "LCK": 20,
+            "DEF": 35,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Steel Longbow ",
+                false
+            ],
+            [
+                "Hatchet",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                31
+            ],
+            "Bow": [
+                false,
+                121
+            ],
+            "Knife": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Kana",
+        "affinity": "Light",
+        "fields": []
+    }
+]

@@ -1,0 +1,103 @@
+[
+    {
+        "nid": "Sal",
+        "name": "Sal",
+        "desc": "A general in Sages army, who has overcome over her past.",
+        "variant": "Female",
+        "level": 1,
+        "klass": "DarkKnight",
+        "tags": [],
+        "bases": {
+            "HP": 27,
+            "STR": 11,
+            "MAG": 14,
+            "SKL": 15,
+            "SPD": 10,
+            "LCK": 8,
+            "DEF": 9,
+            "RES": 11,
+            "CON": 8,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 45,
+            "MAG": 50,
+            "SKL": 60,
+            "SPD": 20,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ],
+            [
+                "Lancereaver",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Somnus_Proc"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Art,Sleep"
+            ],
+            [
+                "Dislikes:",
+                "Betrayal,Loud people"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                121
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                121
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Sal",
+        "affinity": "Water",
+        "fields": []
+    }
+]

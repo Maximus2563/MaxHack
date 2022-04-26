@@ -1,0 +1,89 @@
+[
+    {
+        "nid": "Maro",
+        "name": "Maro",
+        "desc": "A soldier who enjoys keeping his weaponry refined.",
+        "variant": "",
+        "level": 2,
+        "klass": "Soldier",
+        "tags": [],
+        "bases": {
+            "HP": 25,
+            "STR": 7,
+            "MAG": 0,
+            "SKL": 8,
+            "SPD": 5,
+            "LCK": 4,
+            "DEF": 7,
+            "RES": 2,
+            "CON": 8,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 65,
+            "STR": 60,
+            "MAG": 5,
+            "SKL": 50,
+            "SPD": 40,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Steel Lance",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                31
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Maro",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

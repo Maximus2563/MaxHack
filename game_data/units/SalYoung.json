@@ -1,0 +1,99 @@
+[
+    {
+        "nid": "SalYoung",
+        "name": "Sal",
+        "desc": "A general's daughter who is fascinated by dark magic.",
+        "variant": "Female",
+        "level": 3,
+        "klass": "Shaman",
+        "tags": [],
+        "bases": {
+            "HP": 21,
+            "STR": 0,
+            "MAG": 9,
+            "SKL": 9,
+            "SPD": 5,
+            "LCK": 2,
+            "DEF": 5,
+            "RES": 7,
+            "CON": 6,
+            "MOV": 5
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 45,
+            "MAG": 50,
+            "SKL": 60,
+            "SPD": 20,
+            "LCK": 25,
+            "DEF": 30,
+            "RES": 40,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Flux",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Somnus_Proc"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Art,Sleep"
+            ],
+            [
+                "Dislikes:",
+                "Betrayal,Loud people"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                31
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "SalYoung",
+        "affinity": "Water",
+        "fields": []
+    }
+]

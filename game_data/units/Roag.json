@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "Roag",
+        "name": "Roag",
+        "desc": "",
+        "variant": "",
+        "level": 1,
+        "klass": "LanceCavalier",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 6,
+            "MAG": 3,
+            "SKL": 3,
+            "SPD": 7,
+            "LCK": 6,
+            "DEF": 6,
+            "RES": 1,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 75,
+            "STR": 35,
+            "MAG": 10,
+            "SKL": 25,
+            "SPD": 60,
+            "LCK": 45,
+            "DEF": 45,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Lance",
+                false
+            ],
+            [
+                "Pure Water",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Oblivious"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                31
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Knife": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Roag",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

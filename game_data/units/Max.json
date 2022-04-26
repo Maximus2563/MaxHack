@@ -1,0 +1,103 @@
+[
+    {
+        "nid": "Max",
+        "name": "Max",
+        "desc": "",
+        "variant": "",
+        "level": 3,
+        "klass": "Mage Knight",
+        "tags": [],
+        "bases": {
+            "HP": 30,
+            "STR": 11,
+            "MAG": 15,
+            "SKL": 17,
+            "SPD": 16,
+            "LCK": 8,
+            "DEF": 13,
+            "RES": 12,
+            "CON": 9,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 40,
+            "MAG": 45,
+            "SKL": 55,
+            "SPD": 50,
+            "LCK": 25,
+            "DEF": 35,
+            "RES": 25,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Thunder",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Outmaneuver"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Brainstorming,Puzzles"
+            ],
+            [
+                "Dislikes:",
+                "Quitters,Manipulation"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                71
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Knife": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                181
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Max",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

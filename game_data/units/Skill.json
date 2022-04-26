@@ -1,0 +1,98 @@
+[
+    {
+        "nid": "Skill",
+        "name": "Skill",
+        "desc": "",
+        "variant": "",
+        "level": 5,
+        "klass": "Paladin",
+        "tags": [],
+        "bases": {
+            "HP": 40,
+            "STR": 17,
+            "MAG": 3,
+            "SKL": 14,
+            "SPD": 12,
+            "LCK": 2,
+            "DEF": 13,
+            "RES": 9,
+            "CON": 12,
+            "MOV": 8
+        },
+        "growths": {
+            "HP": 60,
+            "STR": 55,
+            "MAG": 20,
+            "SKL": 55,
+            "SPD": 30,
+            "LCK": 10,
+            "DEF": 45,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Silver Sword",
+                false
+            ],
+            [
+                "Silver Lance",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Crusader's Shield"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                201
+            ],
+            "Lance": [
+                false,
+                181
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Knife": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Skill",
+        "affinity": "Dark",
+        "fields": []
+    }
+]

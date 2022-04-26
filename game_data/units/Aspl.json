@@ -1,0 +1,102 @@
+[
+    {
+        "nid": "Aspl",
+        "name": "Aspl",
+        "desc": "A cavalier serving under Sages.\nIs overconfident for a trainee.",
+        "variant": "",
+        "level": 1,
+        "klass": "LanceCavalier",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 7,
+            "MAG": 3,
+            "SKL": 5,
+            "SPD": 2,
+            "LCK": 8,
+            "DEF": 6,
+            "CON": 8,
+            "MOV": 7,
+            "RES": 1
+        },
+        "growths": {
+            "HP": 40,
+            "STR": 50,
+            "MAG": 10,
+            "SKL": 20,
+            "SPD": 25,
+            "LCK": 113,
+            "DEF": 35,
+            "CON": 0,
+            "MOV": 0,
+            "RES": 30
+        },
+        "starting_items": [
+            [
+                "Iron Lance (1)",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Lucky Impact"
+            ]
+        ],
+        "unit_notes": [],
+        "wexp_gain": {
+            "Sword": [
+                true,
+                0
+            ],
+            "Lance": [
+                true,
+                1
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Aspl",
+        "affinity": "Thunder",
+        "fields": []
+    }
+]

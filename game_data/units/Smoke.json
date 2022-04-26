@@ -1,0 +1,107 @@
+[
+    {
+        "nid": "Smoke",
+        "name": "Smoke",
+        "desc": "",
+        "variant": null,
+        "level": 1,
+        "klass": "Thief",
+        "tags": [],
+        "bases": {
+            "HP": 16,
+            "STR": 4,
+            "MAG": 3,
+            "SKL": 5,
+            "SPD": 9,
+            "LCK": 6,
+            "DEF": 2,
+            "RES": 2,
+            "CON": 6,
+            "MOV": 6
+        },
+        "growths": {
+            "HP": 45,
+            "STR": 30,
+            "MAG": 5,
+            "SKL": 60,
+            "SPD": 70,
+            "LCK": 55,
+            "DEF": 25,
+            "RES": 35,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Iron Dagger",
+                false
+            ],
+            [
+                "Vulnerary",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Cryptic Manners"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Puns,Entertaining "
+            ],
+            [
+                "Dislikes",
+                "Personal questions,Bad audiences"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Knife": [
+                false,
+                1
+            ],
+            "Staff": [
+                false,
+                0
+            ],
+            "Light": [
+                false,
+                0
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Smoke",
+        "affinity": "Wind",
+        "fields": []
+    }
+]

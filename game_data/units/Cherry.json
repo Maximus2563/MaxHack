@@ -1,0 +1,107 @@
+[
+    {
+        "nid": "Cherry",
+        "name": "Cherry",
+        "desc": "",
+        "variant": "",
+        "level": 3,
+        "klass": "Valkyrie",
+        "tags": [],
+        "bases": {
+            "HP": 20,
+            "STR": 0,
+            "MAG": 15,
+            "SKL": 12,
+            "SPD": 11,
+            "LCK": 10,
+            "DEF": 10,
+            "RES": 11,
+            "CON": 6,
+            "MOV": 7
+        },
+        "growths": {
+            "HP": 55,
+            "STR": 5,
+            "MAG": 45,
+            "SKL": 30,
+            "SPD": 30,
+            "LCK": 35,
+            "DEF": 40,
+            "RES": 30,
+            "CON": 0,
+            "MOV": 0
+        },
+        "starting_items": [
+            [
+                "Divine",
+                false
+            ],
+            [
+                "Fortify",
+                false
+            ]
+        ],
+        "learned_skills": [
+            [
+                1,
+                "Indentured Aid"
+            ]
+        ],
+        "unit_notes": [
+            [
+                "Likes:",
+                "Praise,Belittling others"
+            ],
+            [
+                "Dislikes:",
+                "Being proven wrong"
+            ]
+        ],
+        "wexp_gain": {
+            "Sword": [
+                false,
+                0
+            ],
+            "Lance": [
+                false,
+                0
+            ],
+            "Axe": [
+                false,
+                0
+            ],
+            "Bow": [
+                false,
+                0
+            ],
+            "Knife": [
+                false,
+                0
+            ],
+            "Staff": [
+                false,
+                181
+            ],
+            "Light": [
+                false,
+                121
+            ],
+            "Anima": [
+                false,
+                0
+            ],
+            "Dark": [
+                false,
+                0
+            ],
+            "Default": [
+                false,
+                0
+            ]
+        },
+        "alternate_classes": [],
+        "portrait_nid": "Cherry",
+        "affinity": "Dark",
+        "fields": []
+    }
+]
