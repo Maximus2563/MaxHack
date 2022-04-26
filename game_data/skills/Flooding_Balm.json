@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Flooding Balm",
+        "name": "Flooding Balm",
+        "desc": "Grants +2 Res/+3 Skl when healing an ally.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            24
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "combat_condition",
+                "target.team == unit.team"
+            ],
+            [
+                "give_status_after_attack",
+                "Flooding Balm Child"
+            ]
+        ]
+    }
+]

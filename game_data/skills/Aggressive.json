@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Aggressive",
+        "name": "Aggressive",
+        "desc": "Unit can target 2 foes to attack on their turn.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            44
+        ],
+        "components": [
+            [
+                "item_override",
+                "Multitarget2"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

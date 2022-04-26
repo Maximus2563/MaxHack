@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Powernap",
+        "name": "Powernap",
+        "desc": "Unit fully heals, but falls asleep for 2 turns.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "ability",
+                "Powernap_Item"
+            ]
+        ]
+    }
+]

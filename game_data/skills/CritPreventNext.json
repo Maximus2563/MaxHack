@@ -1,0 +1,28 @@
+[
+    {
+        "nid": "CritPreventNext",
+        "name": "CritPreventNext",
+        "desc": "",
+        "icon_nid": "Skills",
+        "icon_index": [
+            4,
+            6
+        ],
+        "components": [
+            [
+                "lost_on_end_combat",
+                [
+                    [
+                        "LostOnSelf (T/F)",
+                        "F",
+                        "Lost after self combat (e.g. vulnerary)"
+                    ]
+                ]
+            ],
+            [
+                "crit_avoid",
+                300
+            ]
+        ]
+    }
+]

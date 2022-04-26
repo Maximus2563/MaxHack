@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Pyro Balm Child ",
+        "name": "Pyro Balm ",
+        "desc": "Grants +2 Str/Mag.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            37
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "STR",
+                        2
+                    ],
+                    [
+                        "MAG",
+                        2
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

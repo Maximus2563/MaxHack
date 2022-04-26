@@ -1,0 +1,31 @@
+[
+    {
+        "nid": "Flooding Balm Child",
+        "name": "Flooding Balm ",
+        "desc": "Grants +2 Res/+3 Skl",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            7,
+            23
+        ],
+        "components": [
+            [
+                "stat_change",
+                [
+                    [
+                        "RES",
+                        2
+                    ],
+                    [
+                        "SKL",
+                        3
+                    ]
+                ]
+            ],
+            [
+                "time",
+                1
+            ]
+        ]
+    }
+]

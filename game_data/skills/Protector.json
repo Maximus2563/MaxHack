@@ -1,0 +1,34 @@
+[
+    {
+        "nid": "Protector",
+        "name": "Protector",
+        "desc": "Grants Hit +20 if an ally is within 3 tiles.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            6,
+            5
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "aura",
+                "Range"
+            ],
+            [
+                "aura_range",
+                2
+            ],
+            [
+                "aura_target",
+                "unit"
+            ],
+            [
+                "dynamic_damage",
+                "50 if any(ally for ally in game.units if unit is not ally and skill_system.check_ally(unit, ally) and utils.calculate_distance(unit, ally)<3) else 0"
+            ]
+        ]
+    }
+]

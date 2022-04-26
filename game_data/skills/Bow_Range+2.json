@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Bow Range+2",
+        "name": "Bow Range+2",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            1,
+            28
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "modify_maximum_range",
+                2
+            ]
+        ]
+    }
+]

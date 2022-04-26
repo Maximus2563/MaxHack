@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Gluttonous",
+        "name": "Gluttonous",
+        "desc": "Restores 20% of units HP at the start of their turn.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            3,
+            7
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "regeneration",
+                0.2
+            ]
+        ]
+    }
+]

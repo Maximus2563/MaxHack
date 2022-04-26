@@ -1,0 +1,13 @@
+[
+    {
+        "nid": "Impale",
+        "name": "Impale",
+        "desc": "",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            41
+        ],
+        "components": []
+    }
+]

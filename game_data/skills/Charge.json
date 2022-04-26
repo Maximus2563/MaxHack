@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Charge",
+        "name": "Charge",
+        "desc": "Adds (distance moved / 2) this turn to damage.",
+        "icon_nid": "Skills",
+        "icon_index": [
+            6,
+            3
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "max(0, utils.calculate_distance(unit.position, unit.previous_position) // 2) if unit.position and mode in ('attack', 'splash') else 0"
+            ],
+            [
+                "class_skill",
+                null
+            ]
+        ]
+    }
+]

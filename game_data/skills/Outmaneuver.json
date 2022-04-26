@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "Outmaneuver",
+        "name": "Outmaneuver",
+        "desc": "+15 hit and +10 avoid if unit's \nSkl+Spd is greater than foe's Skl+Spd.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            42
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_avoid",
+                "10 if (unit.stats['SKL'] + unit.stats['SPD']) > (target.stats['SKL'] + target.stats['SPD']) else 0"
+            ],
+            [
+                "dynamic_accuracy",
+                "15 if (unit.stats['SKL'] + unit.stats['SPD']) > (target.stats['SKL'] + target.stats['SPD']) else 0"
+            ]
+        ]
+    }
+]

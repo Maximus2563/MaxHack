@@ -1,0 +1,22 @@
+[
+    {
+        "nid": "Rampage",
+        "name": "Rampage",
+        "desc": "Grants damage dealt+5 if HP is under 25%.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            0,
+            6
+        ],
+        "components": [
+            [
+                "class_skill",
+                null
+            ],
+            [
+                "dynamic_damage",
+                "5 if unit.get_hp() < unit.stats['HP']//4 else 0"
+            ]
+        ]
+    }
+]

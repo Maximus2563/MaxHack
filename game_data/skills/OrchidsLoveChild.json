@@ -1,0 +1,30 @@
+[
+    {
+        "nid": "OrchidsLoveChild",
+        "name": "Orchid's Love",
+        "desc": "Grants 20% of Bread's resistance to atk/spd during combat.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            5,
+            39
+        ],
+        "components": [
+            [
+                "dynamic_damage",
+                "(game.get_unit('Bread').stats['RES'])//5"
+            ],
+            [
+                "dynamic_attack_speed",
+                "(game.get_unit('Bread').stats['RES'])//5"
+            ],
+            [
+                "dynamic_defense_speed",
+                "(game.get_unit('Bread').stats['RES'])//5"
+            ],
+            [
+                "dynamic_avoid",
+                "(game.get_unit('Bread').stats['RES'])//2.5"
+            ]
+        ]
+    }
+]
