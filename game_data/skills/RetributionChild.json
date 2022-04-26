@@ -1,0 +1,26 @@
+[
+    {
+        "nid": "RetributionChild",
+        "name": "Retribution",
+        "desc": "+4 damage dealt.",
+        "icon_nid": "Skills (1)",
+        "icon_index": [
+            3,
+            44
+        ],
+        "components": [
+            [
+                "damage",
+                4
+            ],
+            [
+                "combined_time",
+                1
+            ],
+            [
+                "unit_anim",
+                "MapBerserk"
+            ]
+        ]
+    }
+]
