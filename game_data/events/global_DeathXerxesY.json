@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathXerxesY",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'XerxesYoung'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "XerxesYoung",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "XerxesYoung",
+                    "Urgh...|How foolish, I must leave now..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "XerxesYoung",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "XerxesYoung"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

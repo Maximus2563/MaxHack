@@ -1,0 +1,92 @@
+[
+    {
+        "name": "LevelUpDark",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Dark'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Dark",
+                    "LevelUpRight",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "sum(unit2.values())>8"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dark",
+                    "I'll be the best there is!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>5"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dark",
+                    "Hahaha! I'm smarter than teach now!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dark",
+                    "Aw yeah, his is more like it!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Dark",
+                    "I want more!",
+                    "100,0"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Dark",
+                    "Aw... Why am I no good at anything?",
+                    "100,0"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

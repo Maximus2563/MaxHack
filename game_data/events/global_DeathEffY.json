@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathEffY",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'EffYoung'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "EffYoung",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "EffYoung",
+                    "This isn't how I planned to die... Gotta fly away..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "EffYoung",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "EffYoung"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

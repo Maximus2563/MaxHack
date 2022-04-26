@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathSmoke",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Smoke'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Smoke",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Smoke",
+                    "Looks like not even I can evade death..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Smoke",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Smoke"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathLandros",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Landros'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Landros",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Landros",
+                    "My vision... Going cloudy..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Landros",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Landros"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

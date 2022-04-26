@@ -1,0 +1,92 @@
+[
+    {
+        "name": "LevelUpRoag",
+        "trigger": "during_unit_level_up",
+        "level_nid": null,
+        "condition": "unit.nid == 'Roag'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Roag",
+                    "LevelUpRight",
+                    "FLAG(immediate)"
+                ]
+            ],
+            [
+                "if",
+                [
+                    "sum(unit2.values())>8"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "I am SLAYIN'!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>5"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Yas! We win those!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>3"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Oop! Thanks oomfies!",
+                    "100,0"
+                ]
+            ],
+            [
+                "elif",
+                [
+                    "sum(unit2.values())>1"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Hol awn neow\u2026.",
+                    "100,0"
+                ]
+            ],
+            [
+                "else",
+                []
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Gurl, this is NAWT happening...",
+                    "100,0"
+                ]
+            ],
+            [
+                "end",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

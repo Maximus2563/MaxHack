@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathAerial",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Aerial'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Aerial",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Aerial",
+                    "Man... If only I could'a done more...{br}Oh well..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Aerial",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Aerial"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

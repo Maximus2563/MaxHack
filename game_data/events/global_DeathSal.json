@@ -1,0 +1,49 @@
+[
+    {
+        "name": "DeathSal",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Sal'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Sal",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Sal",
+                    "Is it time for me... To rest...?"
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Sal",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Sal"
+                ]
+            ],
+            [
+                "remove_unit",
+                [
+                    "Sal"
+                ]
+            ],
+            [
+                "lose_game",
+                []
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

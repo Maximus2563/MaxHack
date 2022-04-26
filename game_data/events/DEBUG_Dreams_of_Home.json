@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Dreams of Home",
+        "trigger": "on_base_convo",
+        "level_nid": "DEBUG",
+        "condition": "unit == 'Dreams of Home'",
+        "commands": [
+            [
+                "change_background",
+                [
+                    "Bedroom",
+                    "FLAG(keep_portraits)"
+                ]
+            ],
+            [
+                "multi_add_portrait",
+                [
+                    "SkillYoung",
+                    "Left",
+                    "Aspl",
+                    "Right"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "SkillYoung",
+                    "Filthy casual, bow down to me!"
+                ]
+            ],
+            [
+                "multi_remove_portrait",
+                [
+                    "SkillYoung",
+                    "Aspl"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]

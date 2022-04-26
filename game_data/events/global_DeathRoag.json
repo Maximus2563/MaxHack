@@ -1,0 +1,39 @@
+[
+    {
+        "name": "DeathRoag",
+        "trigger": "unit_death",
+        "level_nid": null,
+        "condition": "unit.nid == 'Roag'",
+        "commands": [
+            [
+                "add_portrait",
+                [
+                    "Roag",
+                    "FarRight"
+                ]
+            ],
+            [
+                "speak",
+                [
+                    "Roag",
+                    "Gurlies... Do it for me..."
+                ]
+            ],
+            [
+                "expression",
+                [
+                    "Roag",
+                    "CloseEyes"
+                ]
+            ],
+            [
+                "remove_portrait",
+                [
+                    "Roag"
+                ]
+            ]
+        ],
+        "only_once": false,
+        "priority": 20
+    }
+]
