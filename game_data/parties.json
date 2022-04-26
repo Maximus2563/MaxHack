@@ -1,0 +1,12 @@
+[
+    {
+        "nid": "MaxYoungGroup",
+        "name": "Max's Group",
+        "leader": "MaxYoung"
+    },
+    {
+        "nid": "SalGroup",
+        "name": "Sal's Platoon",
+        "leader": "Sal"
+    }
+]
